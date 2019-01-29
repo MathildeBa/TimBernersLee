@@ -22,4 +22,4 @@ Exercise BeCode le la dernière semaine de la prairie. 29/01
 - Mettre une couleur de fond sur les `div`
 - Changer la couleur des textes
 - Aligner les textes
-![Goal CSS](images/goal-css.png)
+![Goal CSS](/home/user/Desktop/Becode_Projets/Exer.html.css/TimBernersLee/images)
