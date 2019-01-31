@@ -1,18 +1,15 @@
 body {
     font-family: 'Montserrat';
-    padding: 15px;
+    padding: 5%;
     background-color:#BFBEBD;
-    
-    
-    
+    margin: auto;
 }
 body>div {
     border: 3px solid rgba(246, 245, 245, 0.952);
     border-radius: 8px;
-    max-width: 550px;
-    min-width: 600px;
-    margin: auto;
-    padding: 40px;
+    max-width: 293px;
+    min-width: 282px;
+    padding: 3.9%;
     background-color: #E8E8E8;
     color: #4D5059;
     margin-top: inherit;
@@ -24,66 +21,76 @@ h1{
 .image01 img {
     border-radius: 50%;
     border: 3px solid #BFBEBD;
-    margin-left: 30%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 
+}
+p{
+    font-size: 80%;
 }
 .flex{
     display:flex;
     flex-wrap: wrap;
-    min-width: 700px;
-    max-width: 550px;
+    width: 100%;
     margin: auto;
 
 }
 .photos{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items: baseline;
+    justify-content: space-around;
+    margin-top: -12%;
+    margin-bottom: 49%;
 }
 .text{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width: 443px;
-    margin-left: 24px;
-
+    width: 57%;
+    margin-left: 4%;
 }
 .bouton {
-    border-radius: 10px;
     background: #C72D25;
-    padding: 13px;
+    padding: 1%;
     margin: auto;
-    width: 100px;
-    height: 15px;
+    width: 28%;
     color: #E8E8E8;
+    border-radius: 5px;
 }
+
 a{
     color: #BFBEBD;
     text-decoration-line: none;
 }
 .icones{
-    font-size: 35px;
+    font-size: 170%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .icones * {
-    margin: 1px;
+    margin: 1%;
 }
 .icones p {
-    font-size: 13px;
-    color: #BFBEBD;
+    display: none;
 }
 
 .image02{
-    margin-bottom: 80px;
+    margin-bottom: 1%;
+
 }
 .image03 {
-    margin-bottom: 80px;
+    margin-bottom: 1%;
+
 }
 .image04 {
-    margin-bottom: 80px;
-
+    margin-bottom: 1%;
+}
+img{
+    width: 100%%;
+    height: 100%;
 }
 h1{
     text-align: center;
@@ -93,4 +100,32 @@ h2{
 }
 h3{
     text-align: center;
+}
+@media screen and (min-width: 501px) {
+    body{
+        width: 100%;
+        margin-top: -2%;
+        padding-left: 0%;
+    }
+    body>div {
+        margin: auto;
+        text-align: justify;
+    }
+    .icones p {
+        display: flex;
+        font-size: 57%;
+        color: #BFBEBD;
+    }
+
+    .icones{
+        width: 100%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .icones * {
+        margin: -4%;
+    }
+    .filmsPreferer {
+        padding-top: 2%;
+    }
 }
